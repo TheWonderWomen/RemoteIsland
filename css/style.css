@@ -1,0 +1,36 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	
+	/* STYLES TO CHANGE BACKGROUND OF ENTIRE PAGE */
+	background-image: url("../images/map.jpg");
+
+	background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+ /*A workaround to make the text a little easier to see */
+.main-content { 
+	background: rgba(255,255,255,.4);
+ }
